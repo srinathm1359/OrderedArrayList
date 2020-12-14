@@ -7,7 +7,14 @@ public class Tester {
     }
     System.out.println(nonull1);
     /*Testing NoNullArrayList add()
-    nonull1.add(null); 
+    nonull1.add(null);
     */
+    /*Testing NoNullArrayList add(int index, T element)
+    nonull1.add(3, null);
+    */
+    for (int i = 0; i < 3; i++) {
+      nonull1.add(3, 20);
+    }
+    System.out.println(nonull1);
   }
 }
