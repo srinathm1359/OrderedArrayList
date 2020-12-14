@@ -26,12 +26,18 @@ public class Tester {
     /*
     nonull1.set(3, null);
     */
+    //Testing OrderedArrayList add()
     OrderedArrayList<Integer> ordered = new OrderedArrayList<Integer>();
     for (int i = 0; i < 10; i++) {
       ordered.add(i);
     }
     for (int i = 0; i < 10; i++) {
       ordered.add(15 - i);
+    }
+    System.out.println(ordered);
+    //Testing OrderedArrayList add(index)
+    for (int i = 0; i < 3; i++) {
+      ordered.add(3, 20);
     }
     System.out.println(ordered);
   }
