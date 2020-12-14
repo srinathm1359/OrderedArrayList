@@ -34,4 +34,8 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
     super.add(addAt, element);
     return true;
   }
+
+  public void add(int index, T element) {
+    this.add(element);
+  }
  }
