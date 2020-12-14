@@ -26,5 +26,13 @@ public class Tester {
     /*
     nonull1.set(3, null);
     */
+    OrderedArrayList<Integer> ordered = new OrderedArrayList<Integer>();
+    for (int i = 0; i < 10; i++) {
+      ordered.add(i);
+    }
+    for (int i = 0; i < 10; i++) {
+      ordered.add(15 - i);
+    }
+    System.out.println(ordered);
   }
 }
