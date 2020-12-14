@@ -16,5 +16,15 @@ public class Tester {
       nonull1.add(3, 20);
     }
     System.out.println(nonull1);
+    //Testing NoNullArrayList set()
+    int current = nonull1.get(0);
+    for (int i = 0; i < 13; i++) {
+      current = nonull1.get(i);
+      nonull1.set(i , 2*current);
+    }
+    System.out.println(nonull1);
+    /*
+    nonull1.set(3, null);
+    */
   }
 }
