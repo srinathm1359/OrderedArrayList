@@ -40,5 +40,7 @@ public class Tester {
       ordered.add(3, 20);
     }
     System.out.println(ordered);
+    //Testing OrderedArrayList set()
+    ordered.set(10, -40); System.out.println(ordered);
   }
 }
