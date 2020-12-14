@@ -6,5 +6,8 @@ public class Tester {
       nonull1.add(i);
     }
     System.out.println(nonull1);
+    /*Testing NoNullArrayList add()
+    nonull1.add(null); 
+    */
   }
 }
